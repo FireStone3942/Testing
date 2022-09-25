@@ -1,0 +1,34 @@
+.wrapper{
+    max-height: 120px;
+    width: 1000;
+    border: 1px solid #ddd;
+    display: flex;
+    overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.wrapper .item{
+    min-width: 110px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 2px;
+}
+
+.button-left{
+    height: 110px;
+    min-width: 50px;
+    text-align: center;
+    line-height: 110px;
+}
+
+.button-right{
+    height: 110px;
+    min-width: 50px;
+    text-align: center;
+    line-height: 110px;
+}
